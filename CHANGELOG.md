@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+# [2.0.0](https://github.com/tinohager/test-automatic-release1/compare/v1.0.3...v2.0.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* Optimize output ([51428c6](https://github.com/tinohager/test-automatic-release1/commit/51428c628e001938980ffe6120a748cb99f68e96))
+
+
+### BREAKING CHANGES
+
+* Update .net version
+
 ## [1.0.3](https://github.com/tinohager/test-automatic-release1/compare/v1.0.2...v1.0.3) (2023-01-30)
 
 
