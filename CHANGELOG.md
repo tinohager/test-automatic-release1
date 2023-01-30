@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.0.3](https://github.com/tinohager/test-automatic-release1/compare/v1.0.2...v1.0.3) (2023-01-30)
+
+
+### Bug Fixes
+
+* Optimize console output ([e385d09](https://github.com/tinohager/test-automatic-release1/commit/e385d0944ee3a892d4832438b6e7a718c5f65ea2))
+
 ## [1.0.2](https://github.com/tinohager/test-automatic-release1/compare/v1.0.1...v1.0.2) (2023-01-30)
 
 
