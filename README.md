@@ -1,6 +1,7 @@
 # test-automatic-release1
 - With this GitHub Action -> https://github.com/cycjimmy/semantic-release-action
 - The Action use this package -> https://github.com/semantic-release/semantic-release
+- Conventional Commits -> https://www.conventionalcommits.org/en/v1.0.0/
 
 
 ### Increase PATCH X.X.1
