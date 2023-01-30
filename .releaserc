@@ -1,4 +1,28 @@
 {
   "branches": ["main", "next"],
-  "repositoryUrl": "https://github.com/tinohager/test-automatic-release1.git"
+  "repositoryUrl": "https://github.com/tinohager/test-automatic-release1.git",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    [
+	  "@semantic-release/exec",
+	  {
+        "prepareCmd": "echo ${nextRelease.version}"
+      }
+	],
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Semantic Versioning Changelog"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"]
+      }
+    ],
+    "@semantic-release/github"
+  ]
 }
