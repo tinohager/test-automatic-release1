@@ -13,3 +13,20 @@ summary: `feat: Some description text`
 ### Increase MAJOR 1.X.X
 summary: `feat or fix`<br>
 description: `BREAKING CHANGE: Some description text`
+
+
+## Plugins
+
+### @semantic-release/commit-analyzer
+
+### @semantic-release/exec
+
+### @semantic-release/release-notes-generator
+
+#### @semantic-release/changelog
+
+### @semantic-release/git
+Plugin to commit release assets to the project's git repository
+
+### @semantic-release/github
+Semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues.
