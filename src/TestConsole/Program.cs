@@ -6,3 +6,4 @@ Console.WriteLine("New line 3");
 Console.WriteLine("New line 4");
 Console.WriteLine("New line 5");
 Console.WriteLine("New line 6");
+Console.WriteLine("New line 7");
